@@ -1,0 +1,2 @@
+a new line will be appended
+no new line at all

@@ -1,0 +1,20 @@
+begin
+  raise NameError
+rescue NameError
+  p "Имя ошибки"
+else
+  p "else"
+ensure
+  p "ruby!"
+end
+
+begin
+  p "Нет ошибки"
+rescue NameError
+  p "Name error"
+else
+  p "else"
+ensure
+  p "ruby!"
+end
+

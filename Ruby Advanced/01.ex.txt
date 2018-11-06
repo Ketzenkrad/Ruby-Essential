@@ -1,0 +1,6 @@
+def summa(a, b)
+   a+b
+end
+
+puts summa(1253,3025)
+puts summa(4565,1386)
